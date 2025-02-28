@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>第一二三节课</title>
+</head>
+<body>
+<div>
+    首先是div盒子标签
+    <a href="#ol学习" name="top">点击去学习ol标签</a>
+    <p>p标签：这个是段落标签</p>
+    <p>添加style属性设置文字颜色</p>
+    <p style="color:red">会自动换行</p>
+    <span>span标签：这个是文本标签</span>
+    <span style="color:red">不会自动换行</span>
+    <p>接下来讲h系列标签：</p>
+    <p>一共有六级标题：</p>
+    <h1>h1这是一级标题，通常只有一个</h1>
+    <h2>h2这是二级标题，不限制数目</h2>
+    <h3>h3这是三级标题，不限制数目</h3>
+    <h4>h4这是四级标题，不限制数目</h4>
+    <h5>h5这是五级标题，不限制数目</h5>
+    <h6>h6这是六级标题，不限制数目</h6>
+    <p>接下来讲排序标签：</p>
+    <p>首先是ul无序列表排序</p>
+    <ul>
+        <li type="disc">type属性的disc，实心圆点（也是默认值）</li>
+        <li type="square">type属性的square，黑色方块</li>
+        <li type="circle">type属性的circle，空心原点</li>
+        <li type="none">type属性的none，空白</li>
+    </ul>
+    <p id="ol学习">然后是ol有序序列标签：</p>
+    <ol type="A">
+        <li >type属性的A形式：第一种形式</li>
+        <li >第一种形式</li> 
+        <li >第一种形式</li>
+    </ol>
+    <ol type="I">
+        <li>type属性的罗马数字形式：第二种形式</li>
+        <li>第二种形式</li>
+        <li>第二种形式</li>
+    </ol> 
+    <ol style="list-style:none">
+        <li>style属性的list-style:none设置无符号：第三种形式</li>
+        <li>第三种形式</li>
+        <li>第三种形式</li>
+    </ol> 
+    <p>然后再来讲讲a标签：</p>
+    <a href="https://bpic.588ku.com/element_origin_min_pic/19/03/06/f446b74fc6d24aed0001f23f1dd32cfd.jpg">在本页面打开一张图片</a>
+    <br>这是br换行标签<br>
+    <a href="https://bpic.588ku.com/element_origin_min_pic/19/03/06/f446b74fc6d24aed0001f23f1dd32cfd.jpg" target="_blank">这是target属性的_blank，在新的标签页打开一张图片</a>
+    <br>
+    <a href="https://bpic.588ku.com/element_origin_min_pic/19/03/06/f446b74fc6d24aed0001f23f1dd32cfd.jpg" target="_new">这是target属性的_blank，在新的标签页打开一张图片,但是只能打开一次</a>
+    <p>然后是a标签锚点：</p>
+    <span>用于在当前页面跳转，会刷新页面。通过name属性设置锚点，在href中给定对应的name属性跳转到对应锚点。</span>
+    <a href="#top" name="bottom">点击跳转到顶部</a>
+    <p>最后再来讲讲img标签：</p>
+    <p>
+        用于在网页中引入一张图片。其中有:
+        <ol type="i">
+            <li>src属性，存放图片地址属性，最好为相对路径或者网页地址</li>
+            <li>alt属性，图片提示，当图片加载不出来时显示</li>
+            <li>width属性设置宽度，height属性设置高度</li>
+            <li>title属性设置图片提示文字，鼠标移动到图片上才会显示</li>
+        </ol>
+    </p>
+    <img src="./.venv/f446b74fc6d24aed0001f23f1dd32cfd.jpg" title="好好学习"  width="100" height="100" alt="图片加载失败" >
+
+</div>
+</body>
+</html>
